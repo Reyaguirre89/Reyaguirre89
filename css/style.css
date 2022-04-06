@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#0a0a0a, #9198e5);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 90%;
+    max-width: 440px;
+    color: #000;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+}
+.card img{
+    width: 140px;
+    border-radius: 50%;
+}
+.card h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.card p{
+    font-size: 18px;
+    margin: 10px auto;
+    text-align: left;
+    max-width: 330px;
+}
+.card .links .fa-brands{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: 0.5s;
+    color: #fff;
+}
+.card .links .fa-brands:hover{
+    background: #4a506e;
+}
+.card .fa{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: 0.5s;
+    color: #000;
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    background: #fff;
+    color: #000;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: #4a506e;
+}
+
+.certificates{
+    display: none;
+}
+
+.html:hover + .certificates{
+    display: block;
+    width: 500px;  
+    position: fixed;
+}
+
+.css:hover + .certificates{
+    display: block;
+    width: 500px;  
+    position: fixed;
+}
+
+.python:hover + .certificates{
+    display: block;
+    width: 500px;  
+    position: fixed;
+}
