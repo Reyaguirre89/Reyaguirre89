@@ -85,22 +85,30 @@
     display: block;
     width: 500px;  
     position: fixed;
+    border-radius: 0%;
+    box-shadow: 1px 2px #4a506e;
 }
 
 .css:hover + .certificates{
     display: block;
     width: 500px;  
     position: fixed;
+    border-radius: 0%;
+    box-shadow: 1px 2px #4a506e;
 }
 
 .python:hover + .certificates{
     display: block;
     width: 500px;  
     position: fixed;
+    border-radius: 0%;
+    box-shadow: 1px 2px #4a506e;
 }
 
 .javascript:hover + .certificates{
     display: block;
     width: 500px;  
     position: fixed;
+    border-radius: 0%;
+    box-shadow: 1px 2px #4a506e;
 }
