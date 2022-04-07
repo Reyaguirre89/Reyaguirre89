@@ -98,3 +98,9 @@
     width: 500px;  
     position: fixed;
 }
+
+.javascript:hover + .certificates{
+    display: block;
+    width: 500px;  
+    position: fixed;
+}
